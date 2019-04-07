@@ -1,17 +1,23 @@
 import Typography from "typography"
-import Wordpress2016 from "typography-theme-wordpress-2016"
+import theme from "typography-theme-stow-lake"
 
-Wordpress2016.overrideThemeStyles = () => {
-  return {
-    "a.gatsby-resp-image-link": {
-      boxShadow: `none`,
-    },
-  }
-}
+theme.overrideThemeStyles = () => ({
+  html: {
+    backgroundImage: "linear-gradient(#FFFFFF, #F1F1F1)",
+    minHeight: "100%",
+  },
+  body: {
+    color: "#7D7F89",
+  },
+  a: {
+    color: "#93517D",
+  },
+  "a:hover": {
+    color: "#93517D",
+  },
+})
 
-delete Wordpress2016.googleFonts
-
-const typography = new Typography(Wordpress2016)
+const typography = new Typography(theme)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
