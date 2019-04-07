@@ -1,0 +1,7 @@
+.post + .post {
+  margin-top: 2rem;
+}
+
+.post h3 {
+  color: "#93517D";
+}

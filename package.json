@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "chads-recipes",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "A recipe blog powered by Gatsby and Markdown",
+  "version": "1.0.0",
+  "author": "Chad Danna <chad@formulated.io>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/chaddanna/chads-recipes/issues"
   },
   "dependencies": {
     "gatsby": "^2.3.5",
@@ -33,20 +33,20 @@
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
     "typography": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
+    "typography-theme-stow-lake": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://chads.recipes",
   "keywords": [
-    "gatsby"
+    "recipes"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/chaddanna/chads-recipes.git"
   },
   "scripts": {
     "build": "gatsby build",

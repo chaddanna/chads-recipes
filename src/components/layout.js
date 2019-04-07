@@ -20,6 +20,7 @@ class Layout extends React.Component {
         >
           <Link
             style={{
+              border: 0,
               boxShadow: `none`,
               textDecoration: `none`,
               color: `inherit`,
@@ -34,15 +35,15 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
           }}
         >
           <Link
             style={{
+              border: 0,
               boxShadow: `none`,
               textDecoration: `none`,
-              color: `inherit`,
+              color: `#93517D`,
             }}
             to={`/`}
           >
@@ -62,11 +63,7 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <footer>© {new Date().getFullYear()}, Chad's Recipes</footer>
       </div>
     )
   }
