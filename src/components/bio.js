@@ -38,9 +38,9 @@ function Bio() {
               }}
             />
             <p>
-              Recipe by <strong>{author}</strong>. I live in Denver, CO, and
-              these meals are based around the ingredients I can find around me
-              in downtown.
+              Recipes are made by <strong>{author}</strong>. I live in Denver,
+              CO, and these meals are based around the ingredients I can find
+              around me in downtown.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on twitter.
